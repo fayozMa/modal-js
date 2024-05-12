@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal yasash</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <button class="btn showBtn" id="showBtn">show modal</button>
+      <div class="hidden modal" id="modal">
+        <div class="modalheader">
+          <h3>I love bmw ❤️</h3>
+          <button class="btn closeBtn" id="closeBtn">
+            <i class="fas fa-close"></i>
+          </button>
+        </div>
+        <div class="modalBody">
+          <h2 class="modalTitle">Modal Title</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            sapiente maxime molestias vitae suscipit sit a modi ullam! Nihil,
+            laudantium. Quaerat placeat vel cupiditate ex qui nam sunt quod quia
+            delectus neque repudiandae, non quo enim et dicta voluptatem unde
+            suscipit blanditiis ipsum reiciendis inventore?
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
